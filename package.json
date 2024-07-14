@@ -1,14 +1,14 @@
 {
   "name": "sb-form",
   "description": "SB Form is a dynamic form build with vue3 for laravel and vue application",
-  "author": "K M Rifat ul alom <kmrifat@gmail.com>",
+  "author": "Jahid Hasan",
   "keywords": [
     "vue dynamic form",
     "laravel vue form"
   ],
   "private": false,
-  "homepage": "https://github.com/kmrifat/sb-form",
-  "version": "0.2.8",
+  "homepage": "https://github.com/codegarage6/sb-from",
+  "version": "0.2.9",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "exports": {
