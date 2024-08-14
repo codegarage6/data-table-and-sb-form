@@ -32,11 +32,7 @@ export default {
       default: () => new StringField()
     }
   },
-  // ['modelValue', 'fieldInfo']
-  emits: ['update:modelValue'],
-  mounted() {
-    console.log(this.fieldInfo.label)
-  }
+  emits: ['update:modelValue']
 }
 </script>
 

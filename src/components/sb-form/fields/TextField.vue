@@ -18,7 +18,6 @@ import {TextField} from "../models";
 
 export default {
   name: "InputField",
-  // props: ['modelValue', 'fieldInfo'],
   props: {
     modelValue: {},
     fieldInfo: {

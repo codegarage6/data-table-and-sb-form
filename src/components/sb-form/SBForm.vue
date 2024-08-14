@@ -165,8 +165,8 @@ export default {
      * It's used for data edit from AJAX
      * @returns {Promise<void>}
      */
-    async fetchFromAjax() {
-      await this.axios.get(this.fetchUrl).then(({data}) => {
+    async fetchFromAjax(headers = {}) {
+      await this.axios.get(this.fetchUrl, {headers}).then(({data}) => {
         let resData
         if ('data' in data) {
           resData = data.data;
@@ -188,7 +188,6 @@ export default {
      * This models will need to submit the form
      */
     setModelValue() {
-      console.log('here')
       try {
         Object.entries(this.fields).map((value) => {
           this.models[value[0]] = (value[1].value || value[1].value === 0) ? value[1].value : ''
