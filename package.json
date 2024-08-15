@@ -8,7 +8,7 @@
   ],
   "private": false,
   "homepage": "https://github.com/codegarage6/data-table-and-sb-form",
-  "version": "0.2.14",
+  "version": "0.2.15",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "exports": {
