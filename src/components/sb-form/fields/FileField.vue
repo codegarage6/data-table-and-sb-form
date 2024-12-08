@@ -202,6 +202,8 @@ export default {
       this.$emit('update:modelValue', null)
     },
     addFile(file_manager) {
+      this.$emit('update:modelValue', file_manager.path)
+      document.getElementById('file-modal-close-btn').click();
       this.file_list.push(file_manager);
     },
     getFiles() {
